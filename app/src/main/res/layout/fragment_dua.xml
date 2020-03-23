@@ -14,12 +14,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:text="FRAGMENT2"/>
+            android:text="FRAGMENT 2"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Menampilkannilaiyangdikirimdarifragment1"/>
+            android:text="Menampilkan nilai yang dikirim dari fragment 1"/>
 
         <EditText
             android:layout_width="match_parent"
@@ -37,7 +37,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="KIRIMKEACTIVITY"
+            android:text="KIRIM KE ACTIVITY"
             android:id="@+id/bt_fr2_set"/>
 
     </LinearLayout>
