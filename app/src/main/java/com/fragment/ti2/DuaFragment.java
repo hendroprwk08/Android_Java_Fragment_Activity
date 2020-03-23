@@ -46,6 +46,8 @@ public class DuaFragment extends Fragment {
     }
 
     @OnClick(R.id.bt_fr2_set) void set(){
-
+        MainActivity mainActivity=(MainActivity)getActivity();
+        mainActivity.etNama.setText(etFr2Nama.getText().toString());
+        mainActivity.etNPM.setText(etFr2NPM.getText().toString());
     }
 }
